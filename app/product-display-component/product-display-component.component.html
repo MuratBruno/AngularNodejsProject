@@ -1,0 +1,22 @@
+
+<table>
+	<tr>
+		<td>
+			<ul>
+				<li>
+				bibi
+				</li>
+				<li *ngFor="let product of (products)">
+					<label *ngIf="product.Stock >0" class="available">
+						{{product.Nom}},
+						</label>
+						<label *ngIf="product.Stock == 0">
+						{{product.Nom}} (rupture de stock)
+						</label>
+						Type:{{product.Type}}
+						Prix:{{product.Prix}}
+					</li>
+				</ul>
+			</td>
+		</tr>
+</table>	
