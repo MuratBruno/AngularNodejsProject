@@ -3,7 +3,7 @@ var express=require('express');
 var app =express();
 var MongoClient = require("mongodb").MongoClient;
 var assert = require("assert");
-var url = 'mongodb+srv://Admin:F1b!ddBh@cluster0-gsjie.mongodb.net/';
+var url = 'mongodb+srv://Admin:****@cluster0-gsjie.mongodb.net/';
 
 /*function productResearch (db) {
 	 var dbo = db.db("MaBase1");
